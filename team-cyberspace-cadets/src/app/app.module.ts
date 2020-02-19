@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
-import { HttpModule } from "@angular/core";
+import {  HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -33,11 +33,17 @@ let routes = [
     imports: [
         BrowserModule,
         FormsModule,
-        HttpModule,
+        HttpClientModule,
         RouterModule,
         RouterModule.forRoot(routes)
     ],
     providers: [],
     bootstrap: [AppComponent]
 })
+
+
+
+
 export class AppModule { }
+
+
