@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http, Headers, RequestOptions } from "@angular/http";
+import { Http, Headers, RequestOptions } from "@angular/common/http";
 import { Router, ActivatedRoute } from "@angular/router";
 import "rxjs/Rx";
 
