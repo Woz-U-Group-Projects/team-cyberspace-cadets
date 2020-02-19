@@ -14,6 +14,7 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
 
 let routes = [
     { path: "", redirectTo: "/login", pathMatch: "full" },
+    { path: "login", component: LoginComponent },
     { path: "register", component: RegisterComponent },
     { path: "blogs", component: BlogsComponent },
     { path: "blog", component: BlogComponent }
