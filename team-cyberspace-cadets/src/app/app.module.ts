@@ -7,8 +7,8 @@ import {  HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { LoginComponent } from './userlogin/login.component';
 import { RegisterComponent } from './userRegistration/register.component';
-import { BlogsComponent } from './blogs/blogs.component';
-import { BlogComponent } from './blog/blog.component';
+import { BlogsComponent } from './userblogs/blogs.component';
+import { BlogComponent } from './regblog/blog.component';
 import { UserlibaryComponent } from './userlibary/userlibary.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 
