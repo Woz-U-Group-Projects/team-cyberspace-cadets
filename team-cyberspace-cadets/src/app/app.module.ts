@@ -20,6 +20,8 @@ let routes = [
     { path: "blog", component: BlogComponent }
 ];
 
+
+
 @NgModule({
     declarations: [
         AppComponent,
