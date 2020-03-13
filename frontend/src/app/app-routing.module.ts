@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { userlibraryComponent } from './team-cyberspace-cadets/components/userlibrary/userlibrary.component';
-import { BlogsComponent } from './team-cyberspace-cadets/components/Blogs/Blogs.component';
-import { loginComponent } from './team-cyberspace-cadets/components/login/login.component';
-import { userprofileComponent } from './team-cyberspace-cadets/components/userprofile/userprofile.component';
-import { registerComponent } from './team-cyberspace-cadets/components/register/register.component';
-import { blogComponent } from './team-cyberspace-cadets/components/blog/blog.component';
+import {  UserlibaryComponent } from './userlibary/userlibary.component';
+import { BlogsComponent } from './userBlogs/Blogs.component';
+import { LoginComponent } from './userlogin/login.component';
+import {  UserprofileComponent } from './userprofile/userprofile.component';
+import { RegisterComponent } from './userRegistration/register.component';
+import { BlogComponent } from './regblog/blog.component';
 
 
 
@@ -15,7 +15,7 @@ const routes: Routes = [
  
   {
     path: 'userlibrary',
-    component: userlibraryComponent
+    component:  UserlibaryComponent
   },
 
   {
@@ -25,22 +25,22 @@ const routes: Routes = [
 
   {
     path: 'login',
-    component: loginComponent
+    component: LoginComponent
   },
 
   {
     path: 'userprofile',
-    component: userprofileComponent
+    component:  UserprofileComponent
   },
 
   {
     path: 'register',
-    component: registerComponent
+    component: RegisterComponent
   },
 
   {
     path: 'blog',
-    component: blogComponent
+    component: BlogComponent
   }
 
 ];

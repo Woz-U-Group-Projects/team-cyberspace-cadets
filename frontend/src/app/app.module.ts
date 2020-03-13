@@ -13,11 +13,14 @@ import { UserlibaryComponent } from './userlibary/userlibary.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 
 let routes = [
-    { path: "", redirectTo: "/login", pathMatch: "full" },
-    { path: "/login", component: LoginComponent },
+   { path: "", redirectTo: "login", pathMatch: "full" },
+    { path: "login", component: LoginComponent },
     { path: "register", component: RegisterComponent },
+    { path: "Blogs", component: BlogsComponent },
     { path: "blogs", component: BlogsComponent },
-    { path: "blog", component: BlogComponent }
+    { path: "blog", component: BlogComponent },
+    { path: "userlibrary", component: UserlibaryComponent },
+    
 ];
 
 
